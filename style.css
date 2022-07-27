@@ -2,11 +2,17 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-size: 100%;
+    background-color: bisque;
+}
 
 header, main, footer {
-    min-width: 855px;
+    width: 855px;
     overflow: auto;
     padding: 10px;
+    margin: auto;
+
 }
 
 .left {
@@ -33,3 +39,11 @@ header, main, footer {
     margin: 5px;
 }
 
+.comment-input input, .comment-input button{
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.comment-input button {
+    background-color: greenyellow;
+}
