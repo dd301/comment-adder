@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    min-width: 855px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    width: 285px;
+}
+
+.right {
+    float: right;
+    width: 570px;
+}
+
+.comments p:nth-child(even) {
+    background: lavender;
+}
+
+.comments p:nth-child(odd) {
+    background: gainsboro;
+}
+
+.comments p {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
